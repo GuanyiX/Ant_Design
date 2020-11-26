@@ -1,0 +1,27 @@
+.App {
+  & > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+
+    li {
+      width: 500px;
+      height: 1000px;
+      background-color: #bfa;
+
+      &:first-child {
+        padding: 10px;
+
+        & > .ant-cascader-picker {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.ant-cascader-menus {
+  width: 300px;
+}

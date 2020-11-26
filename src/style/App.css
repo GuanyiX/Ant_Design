@@ -1,0 +1,25 @@
+.App > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.App > ul li {
+  width: 500px;
+  height: 1000px;
+  background-color: #bfa;
+}
+
+.App > ul li:first-child {
+  padding: 10px;
+}
+
+.App > ul li:first-child > .ant-cascader-picker {
+  width: 100%;
+}
+
+.ant-cascader-menus {
+  width: 300px;
+}
