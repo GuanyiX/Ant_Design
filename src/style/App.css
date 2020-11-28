@@ -20,6 +20,14 @@
   width: 100%;
 }
 
+.App > ul li:last-child .ant-layout-sider-children {
+  color: white;
+}
+
+.App > ul li:last-child .ant-layout-sider-trigger {
+  background-color: green;
+}
+
 .ant-cascader-menus {
   width: 300px;
 }

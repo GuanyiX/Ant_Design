@@ -18,6 +18,17 @@
           width: 100%;
         }
       }
+
+      &:last-child {
+        .ant-layout-sider-children {
+          color: white;
+        }
+
+        .ant-layout-sider-trigger {
+          background-color: green;
+        }
+      }
+
     }
   }
 }
